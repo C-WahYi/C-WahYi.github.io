@@ -1,0 +1,139 @@
+<!--Tells browser to read code as html5-->
+<!DOCTYPE html>
+<!--Holds all html in between-->
+<html lang="en">
+    <!--Holds metadata for search engines to look at our website's content
+    Metadata in the head tag includes meta tags, title tags, link tags, 
+        scripts, stylesheets, and more.-->
+  <head>
+    <!--Title appears at the top of the titlebar-->
+    <title>About Me</title>
+    <!--The meta tag is a metadata element used to add more metadata to your
+        website than the kind that non-meta tags like title provide.You can
+        use these tags for various purposes:
+        adding metadata for social media platforms to create link previews
+        adding a description for your website
+        adding a character encoding for your website
+        and many more.-->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <!--Link StyleSheets-->
+    <link rel="stylesheet" href="/CSS/app.css">
+  </head>
+  <!--Body holds the content of website visible to users-->
+  <body>
+    <a href="#top"><button class="roundBut">^<br>|</button></a>
+    <!-- Attention Grabber Header -->
+    <div class="header" id="top">
+        <h1>My Portfolio Website</h1>
+        <p>A website to showcase abit of myself</p>
+    </div>
+    <div class="navbar">
+        <a href="/Pages/index.html">Home</a>
+        <a href="/Pages/about.html">About Me</a>
+        <a href="/Pages/skills.html">Skills</a>
+        <a href="/Pages/projects.html">Projects</a>
+        <a href="/Pages/contactme.html">Contact Me</a>
+        <a href="/Pages/credits.html" class="right">Credits</a>
+    </div> 
+    <div class="row">
+        <div class="side">
+            <div class="container">        
+                <a href="#volunteer"><button class="btn briefHeader"><h2>Volunteering</h2></button></a>    
+                <a href="#bowling"><button class="btn skillsHeader"><h2>Bowling</h2></button></a>        
+            </div>
+        </div>
+        <div class="main">
+            <!--The main tag specifies the essential content of a website. This would
+            be the content related to the website's title.
+
+            For example, a blog post page. The social media sharing on the left, 
+            advertisements on the right, header, and footer are minor parts of the web-->
+                   
+                <div>
+                    <h2 class="fTitle">My passions!</h2>
+                    <div id="volunteer" class="fTitle"><h2>Volunteering:</h2></div>                    
+                    <h3 class="fWord">
+                        Since young, I have a passion for helping people. I feel fufilled when I am
+                        able to help and enrich other people's lives. Its a joy to be able to bring
+                        smiles to other people. I have been serving and volunteering since 2014 and I
+                        do not plan to stop anytime soon. Below are some organisations that I have 
+                        volunteered for.
+                    </h3>
+                </div>
+                <div>
+                    <h3 class="fWord">
+                        Focus on the family<br>                
+                        I have been volunteering with them since 2014, from them I have learnt on how
+                        to care for others and be able to serve with an open heart. I love their way
+                        of caring for others. They treat everyone with kindness and respect.
+                    </h3>                    
+                </div>
+                <div>
+                    <h3 class="fWord">
+                        People's Association Grassroots Leaders<br>
+                        I have been volunteering with People's Association for a shorter amount of time,
+                        since 2019. They serve the wider community, the young, the old and in between.
+                        Being able to volunteer alongside them helped me to empathise with the needs of
+                        other residents. Recently, since Jan 2023 until now, have been the secretary for
+                        my area's resident network. It has been fufilling work, to be able to give back
+                        and serve the place that I live in.                        
+                    </h3>
+                </div>
+                <!-- Slideshow container -->
+                <div class="slideshow-container">
+                    <!-- Full-width images with number and caption text -->
+                    <div class="mySlides fade">
+                        <div class="numbertext">1 / 4</div>
+                            <img src="../Resources/Images/fotf5yrs.jpg" style="width: 100%;" style="height:100%">
+                        <div class="text">I have been volunteering for quite a long time and I enjoy it!</div>
+                    </div>
+                    <div class="mySlides fade">
+                        <div class="numbertext">2 / 4</div>
+                            <img src="../Resources/Images/fotfVolunteerAppreciation.jpg" style="width: 100%;" style="height:100%">
+                        <div class="text">In the years I have volunteered, the organisation has appreciated my efforts</div>
+                    </div>
+                    <div class="mySlides fade">
+                        <div class="numbertext">3 / 4</div>
+                            <img src="../Resources/Images/pasecretary.jpg" style="height:700px">
+                        <div class="text">I have been volunteering under PA since 2018 and have taken up a role last year</div>
+                    </div>
+                    <div class="mySlides fade">
+                        <div class="numbertext">4 / 4</div>
+                            <img src="../Resources/Images/pa5years.jpg" style="height:700px">
+                        <div class="text">I am glad that my efforts are recognised</div>
+                    </div>
+
+                    <!-- Next and previous buttons -->
+                    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+                </div>
+                <br>
+
+                <!-- The dots/circles -->
+                <div style="text-align:center">
+                    <span class="dot" onclick="currentSlide(1)"></span>
+                    <span class="dot" onclick="currentSlide(2)"></span>
+                    <span class="dot" onclick="currentSlide(3)"></span>
+                    <span class="dot" onclick="currentSlide(4)"></span>
+                </div>
+                <div>
+                    <div id="bowling" class="fTitle"><h2>Bowling:</h2></div>                    
+                    <h3 class="fWord">
+                        Other than Volunteering, I like to go bowling when I have time to rest and relax.
+                        I like bowling, its a sport of being focus and tranquil. To have a calm mind and
+                        to perform each motion with consistency and routine, that is what draws me
+                        to bowling. The fun part is trying to do the same thing repeatedly, but getting
+                        slightly different results each time. Its a fascinating sport to pick up!
+                    </h3>
+                </div>       
+            </div>
+        </div>      
+        <script src="../Javasvript/app.js"></script>
+        <!--Actual Footer-->
+        <!-- <div class="footer">
+            <h2>Footer</h2>
+        </div> -->
+    </body>
+</html>
