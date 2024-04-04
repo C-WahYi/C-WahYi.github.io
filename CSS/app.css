@@ -15,11 +15,11 @@
 }
 
 .fTitle {
-  font-family: 'Courier New', Courier, monospace;
+  font-family:'Times New Roman', Times, serif;
 }
 
 .fWord {
-  font-family: cursive;
+  font-family:'Times New Roman', Times, serif;
 }
 
 .roundBut {
@@ -51,7 +51,7 @@
 
 .header h1, .header p {
   background-color: #A1D6E2;
-  font-family:'Courier New', Courier, monospace;
+  font-family: 'Times New Roman', Times, serif;
 }
 
 /* Style the top navigation bar */
@@ -63,7 +63,7 @@
 /* Style the navigation bar links */
 .navbar a {
   float: left;
-  font-family:cursive;
+  font-family:'Times New Roman', Times, serif;
   display: block;
   background-color: #1995AD;
   color: white;
@@ -72,15 +72,19 @@
   text-decoration: none;
 }
 
-/* Right-aligned link */
-.navbar a.right {
-  float: right;
+.navbar a:hover {
+  color: black;
 }
+
+/* Right-aligned link */
+/* .navbar a.right {
+  float: right;
+} */
 
 /* Column container */
 .row {  
   display: flex;
-  flex-wrap: wrap;
+  flex-wrap: nowrap;
 }
 
 /* Create two unequal columns that sits next to each other */
@@ -134,11 +138,13 @@
   background-color: inherit;
   padding: 14px 28px;
   font-size: 16px;
-  font-family: cursive;
+  font-family: 'Times New Roman', Times, serif;
   cursor: pointer;
   display: inline-block;
 }
-.btn:hover {background: #8a8888;}
+.btn:hover {
+  color: white;
+}
 html { scroll-behavior: smooth;}
 
 .contactme {
@@ -189,7 +195,7 @@ td {
   position: relative;
   margin: auto;
   text-align: center;
-  font-family: cursive;
+  font-family: 'Times New Roman', Times, serif;
 }
 
 /* Hide the images by default */
